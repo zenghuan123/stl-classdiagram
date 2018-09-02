@@ -1,0 +1,2365 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFleTvxj7iowzk=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFleTvxkLipBvk=",
+									"_parent": {
+										"$ref": "AAAAAAFleTvxj7iowzk="
+									},
+									"model": {
+										"$ref": "AAAAAAFleTvxjrimVys="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleTvxkLiq+I4=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLipBvk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -64,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleTvxkLirNsw=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLipBvk="
+											},
+											"font": "Arial;13;1",
+											"left": 45,
+											"top": 87,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "_Vector_alloc_base"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleTvxkLisjMc=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLipBvk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -64,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleTvxkLit/oU=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLipBvk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -64,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 80,
+									"width": 254.72607421875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFleTvxkLiq+I4="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFleTvxkLirNsw="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFleTvxkLisjMc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFleTvxkLit/oU="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFleTvxkLiu5lM=",
+									"_parent": {
+										"$ref": "AAAAAAFleTvxj7iowzk="
+									},
+									"model": {
+										"$ref": "AAAAAAFleTvxjrimVys="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleT4vrLj0p+c=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLiu5lM="
+											},
+											"model": {
+												"$ref": "AAAAAAFleT4vZ7jxT+s="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 110,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_data_allocator: allocator_type",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleUHu8rj9NII=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLiu5lM="
+											},
+											"model": {
+												"$ref": "AAAAAAFleUHur7j6C1c="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 125,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_start: _Tp*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleUIRU7kF+xY=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLiu5lM="
+											},
+											"model": {
+												"$ref": "AAAAAAFleUIRGbkCj1c="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 140,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_finish: _Tp*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleUIudLkNmDI=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLiu5lM="
+											},
+											"model": {
+												"$ref": "AAAAAAFleUIuPbkKDRY="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 155,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_end_of_storage: _Tp*",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 105,
+									"width": 254.72607421875,
+									"height": 68
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFleTvxkLivHRs=",
+									"_parent": {
+										"$ref": "AAAAAAFleTvxj7iowzk="
+									},
+									"model": {
+										"$ref": "AAAAAAFleTvxjrimVys="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleULAurkYtd4=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLivHRs="
+											},
+											"model": {
+												"$ref": "AAAAAAFleULAbrkVhfE="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 178,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_allocate(__n: size_t): _Tp*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleUOO8LksWpo=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkLivHRs="
+											},
+											"model": {
+												"$ref": "AAAAAAFleUOOqrkpn9s="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 193,
+											"width": 244.72607421875,
+											"height": 13,
+											"text": "#_M_deallocate(__p: _Tp*)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 173,
+									"width": 254.72607421875,
+									"height": 38
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFleTvxkbiw6S8=",
+									"_parent": {
+										"$ref": "AAAAAAFleTvxj7iowzk="
+									},
+									"model": {
+										"$ref": "AAAAAAFleTvxjrimVys="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -32,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFleTvxkbixsCg=",
+									"_parent": {
+										"$ref": "AAAAAAFleTvxj7iowzk="
+									},
+									"model": {
+										"$ref": "AAAAAAFleTvxjrimVys="
+									},
+									"subViews": [
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleTzUZ7jeBEs=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkbixsCg="
+											},
+											"model": {
+												"$ref": "AAAAAAFleTzUJrjbfQI="
+											},
+											"font": "Arial;13;0",
+											"left": 220.681640625,
+											"top": 37,
+											"width": 78.04443359375,
+											"height": 13,
+											"text": "_Tp",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleT3IHrjlJNU=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkbixsCg="
+											},
+											"model": {
+												"$ref": "AAAAAAFleT3HzLjiZtA="
+											},
+											"font": "Arial;13;0",
+											"left": 220.681640625,
+											"top": 52,
+											"width": 78.04443359375,
+											"height": 13,
+											"text": "_Allocator",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleT3dIbjsUNk=",
+											"_parent": {
+												"$ref": "AAAAAAFleTvxkbixsCg="
+											},
+											"model": {
+												"$ref": "AAAAAAFleT3c0Ljp/mQ="
+											},
+											"font": "Arial;13;0",
+											"left": 220.681640625,
+											"top": 67,
+											"width": 78.04443359375,
+											"height": 13,
+											"text": "bool _IsStatic",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 215.681640625,
+									"top": 32,
+									"width": 88.04443359375,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 40,
+							"top": 32,
+							"width": 264.72607421875,
+							"height": 179,
+							"nameCompartment": {
+								"$ref": "AAAAAAFleTvxkLipBvk="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFleTvxkLiu5lM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFleTvxkLivHRs="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFleTvxkbiw6S8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFleTvxkbixsCg="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFleUgdcLk2fkQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 48,
+							"width": 273,
+							"height": 49,
+							"text": "_IsStatic 是false时内存分配使用对象的方法\n是true则使用静态方法"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFleUgdtLk5Nto=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFleUgdcLk2fkQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFleTvxj7iowzk="
+							},
+							"lineStyle": 1,
+							"points": "305:100;343:94"
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFleU5+HblP8nY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFleU5+HrlQzBU=",
+									"_parent": {
+										"$ref": "AAAAAAFleU5+HblP8nY="
+									},
+									"model": {
+										"$ref": "AAAAAAFleU5+HblNrvA="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleU5+HrlRatA=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlQzBU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 528,
+											"top": -400,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleU5+HrlS2Jk=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlQzBU="
+											},
+											"font": "Arial;13;1",
+											"left": 373,
+											"top": 120,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "_Vector_base"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleU5+HrlTFn4=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlQzBU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 528,
+											"top": -400,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleU5+HrlUivQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlQzBU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 528,
+											"top": -400,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 113,
+									"width": 324.2392578125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFleU5+HrlRatA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFleU5+HrlS2Jk="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFleU5+HrlTFn4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFleU5+HrlUivQ="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFleU5+HrlVnqk=",
+									"_parent": {
+										"$ref": "AAAAAAFleU5+HblP8nY="
+									},
+									"model": {
+										"$ref": "AAAAAAFleU5+HblNrvA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleV3DjLnOqlU=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlVnqk="
+											},
+											"model": {
+												"$ref": "AAAAAAFleV3DTrnLwv4="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 143,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "#_M_start: _Tp*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleV3xXLnW50g=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlVnqk="
+											},
+											"model": {
+												"$ref": "AAAAAAFleV3xFLnTgRQ="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 158,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "#_M_finish: _Tp*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFleV4y7Lnf70g=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlVnqk="
+											},
+											"model": {
+												"$ref": "AAAAAAFleV4yq7ncV8M="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 173,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "#_M_end_of_storage: _Tp*",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 138,
+									"width": 324.2392578125,
+									"height": 53
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFleU5+HrlWFsI=",
+									"_parent": {
+										"$ref": "AAAAAAFleU5+HblP8nY="
+									},
+									"model": {
+										"$ref": "AAAAAAFleU5+HblNrvA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleVXvZbmdr8g=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlWFsI="
+											},
+											"model": {
+												"$ref": "AAAAAAFleVXvJbmaG4o="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 196,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "+_Vector_base(__n: size_t, __a: const allocator&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleVfjDLmyy2w=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlWFsI="
+											},
+											"model": {
+												"$ref": "AAAAAAFleVfixrmvv8g="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 211,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "~_Vector_base()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleV7rnLnqMSc=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlWFsI="
+											},
+											"model": {
+												"$ref": "AAAAAAFleV7rYbnnPEg="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 226,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "#_M_allocate(__n: size_t)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleWBDJLn4lRM=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+HrlWFsI="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWBC5Ln1Kkc="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 241,
+											"width": 314.2392578125,
+											"height": 13,
+											"text": "#_M_deallocate(__p: _Tp*, __n: size_t)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 191,
+									"width": 324.2392578125,
+									"height": 68
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFleU5+H7lXxaQ=",
+									"_parent": {
+										"$ref": "AAAAAAFleU5+HblP8nY="
+									},
+									"model": {
+										"$ref": "AAAAAAFleU5+HblNrvA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 264,
+									"top": -200,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFleU5+H7lYbHc=",
+									"_parent": {
+										"$ref": "AAAAAAFleU5+HblP8nY="
+									},
+									"model": {
+										"$ref": "AAAAAAFleU5+HblNrvA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleU67cLl6GFE=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+H7lYbHc="
+											},
+											"model": {
+												"$ref": "AAAAAAFleU67Lbl3d6g="
+											},
+											"font": "Arial;13;0",
+											"left": 660.83203125,
+											"top": 85,
+											"width": 35.4072265625,
+											"height": 13,
+											"text": "_Tp",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleU7QArmB6x0=",
+											"_parent": {
+												"$ref": "AAAAAAFleU5+H7lYbHc="
+											},
+											"model": {
+												"$ref": "AAAAAAFleU7PxLl+56k="
+											},
+											"font": "Arial;13;0",
+											"left": 660.83203125,
+											"top": 100,
+											"width": 35.4072265625,
+											"height": 13,
+											"text": "_Alloc",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 655.83203125,
+									"top": 80,
+									"width": 45.4072265625,
+									"height": 38
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 368,
+							"top": 80,
+							"width": 334.2392578125,
+							"height": 239,
+							"nameCompartment": {
+								"$ref": "AAAAAAFleU5+HrlQzBU="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFleU5+HrlVnqk="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFleU5+HrlWFsI="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFleU5+H7lXxaQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFleU5+H7lYbHc="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFleVoKurnAk64=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 264,
+							"width": 269.25341796875,
+							"height": 70,
+							"text": "_Vector_base有两个，\n第一个是继承自_Vector_alloc_base的struct\n第二个是不继承任何类的 class\n这个类图是第二个的类图"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFleVoK9bnDJLY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFleVoKurnAk64="
+							},
+							"tail": {
+								"$ref": "AAAAAAFleU5+HblP8nY="
+							},
+							"lineStyle": 1,
+							"points": "534:199;508:263"
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFleWN30LoJ1aA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFleWN30LoKLro=",
+									"_parent": {
+										"$ref": "AAAAAAFleWN30LoJ1aA="
+									},
+									"model": {
+										"$ref": "AAAAAAFleWN30LoHFl0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleWN30LoLeEE=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30LoKLro="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -336,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleWN30LoMGNk=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30LoKLro="
+											},
+											"font": "Arial;13;1",
+											"left": 45,
+											"top": 368,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "vector"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleWN30LoNF1g=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30LoKLro="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -336,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFleWN30LoOZys=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30LoKLro="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -336,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 361,
+									"width": 614.1748046875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFleWN30LoLeEE="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFleWN30LoMGNk="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFleWN30LoNF1g="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFleWN30LoOZys="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFleWN30LoPMgk=",
+									"_parent": {
+										"$ref": "AAAAAAFleWN30LoJ1aA="
+									},
+									"model": {
+										"$ref": "AAAAAAFleWN30LoHFl0="
+									},
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 386,
+									"width": 614.1748046875,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFleWN30boQ9+8=",
+									"_parent": {
+										"$ref": "AAAAAAFleWN30LoJ1aA="
+									},
+									"model": {
+										"$ref": "AAAAAAFleWN30LoHFl0="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXCTY7p6d18=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWfqQbpHBfw="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 401,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+max_size(): size_type",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXCbqrp+tgg=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWhULLpQF7k="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 416,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+capacity(): size_type",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXCoJLqCGHc=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWodSrpgGZY="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 431,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+operator[](__n: size_type)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXCw+LqGO94=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWsO0rpsIjA="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 446,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_range_check(__n: size_type)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXECmbqimF8=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleXECRrqfZ0g="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 461,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+at(__n: size_type): reference",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXbmPLq5gZ4=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleXbl7Lq2Ky0="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 476,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+vector(___n: size_type, __value: const _Tp&, __a: const allocator_type&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleXvh3brUtxU=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleXvhiLrR43I="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 491,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_initialize_aux()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleX9/Q7remHQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleX9+/brb9cc="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 506,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "~vector()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleYFAXrr6OMQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleYFAH7r3z74="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 521,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+reserve(__n: size_type)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleY2YZLsNjBQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleY2YF7sKBPw="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 536,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+assign(__n: size_type, __val: const _Tp&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleZA7CLsfqyk=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleZA6wbscaRY="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 551,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+push_back(__x: const _Tp&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFleZN247suJIU=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFleZN2obsrs5c="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 566,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+swap(__x: vector<_Tp,_Alloc>)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFlelItMLs8Jo8=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFlelIs5Ls5ipQ="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 581,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+insert(__position: iterator, __x: const _Tp&): iterator",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFlenTXYbtXq1k=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFlenTXD7tUJlg="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 596,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+pop_back()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFletJn9Lthd1Q=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFletJnsrte8qc="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 611,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+erase(__position)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFljfmgTaZ0jWw=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFljfmf86Zxybo="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 626,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+resize(__new_size: size_type, __x: const _Tp&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFljftrpKaIQjY=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFljftrYqaFgLY="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 641,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+clear()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFljuOS7aaQkFY=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFljuOSoqaNRVc="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 656,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "-_M_allocate_and_copy(__n: size_type, __first: const_iterator, __last: const_iterator): iterator",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFljuyg0KawLx4=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFljuygi6atbt4="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 671,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_range_initialize(__first: _ForwardIterator, __last: _ForwardIterator, : forward_iterator_tag)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFljvImMabL4gw=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFljvIl7KbIyCA="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 686,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+operator=(__x: const vector<_Tp,_Alloc>&): vector<_Tp,_Alloc>&",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFlk+LY3Bhaub4=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFlk+LYdxhXx7I="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 701,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_fill_assign(__n: size_type, __val: const _Tp&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFlk+TpJhhrlcI=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFlk+To3xhoZpU="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 716,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_insert_aux(__position, __x: const _Tp&)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFlk+X+khh3YG4=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boQ9+8="
+											},
+											"model": {
+												"$ref": "AAAAAAFlk+X+Sxh01kY="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 731,
+											"width": 604.1748046875,
+											"height": 13,
+											"text": "+_M_fill_insert(__pos: iterator, __n: size_type, __x: const _Tp&)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 396,
+									"width": 614.1748046875,
+									"height": 353
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFleWN30boRLuA=",
+									"_parent": {
+										"$ref": "AAAAAAFleWN30LoJ1aA="
+									},
+									"model": {
+										"$ref": "AAAAAAFleWN30LoHFl0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -56,
+									"top": -168,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFleWN30boSrfw=",
+									"_parent": {
+										"$ref": "AAAAAAFleWN30LoJ1aA="
+									},
+									"model": {
+										"$ref": "AAAAAAFleWN30LoHFl0="
+									},
+									"subViews": [
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleWOcero0J+c=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boSrfw="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWOcKroxsJo="
+											},
+											"font": "Arial;13;0",
+											"left": 622.767578125,
+											"top": 333,
+											"width": 35.4072265625,
+											"height": 13,
+											"text": "_Tp",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLTemplateParameterView",
+											"_id": "AAAAAAFleWQiFro75LA=",
+											"_parent": {
+												"$ref": "AAAAAAFleWN30boSrfw="
+											},
+											"model": {
+												"$ref": "AAAAAAFleWQhyro44HM="
+											},
+											"font": "Arial;13;0",
+											"left": 622.767578125,
+											"top": 348,
+											"width": 35.4072265625,
+											"height": 13,
+											"text": "_Alloc",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 617.767578125,
+									"top": 328,
+									"width": 45.4072265625,
+									"height": 38
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 40,
+							"top": 328,
+							"width": 624.1748046875,
+							"height": 436,
+							"nameCompartment": {
+								"$ref": "AAAAAAFleWN30LoKLro="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFleWN30LoPMgk="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFleWN30boQ9+8="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFleWN30boRLuA="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFleWN30boSrfw="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAFleXDfgLqPyek=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFleXDfgLqNIEs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFleXDfgLqQaNg=",
+									"_parent": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"model": {
+										"$ref": "AAAAAAFleXDfgLqNIEs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 456,
+									"top": 307,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFleXDfgbqRuu4=",
+									"_parent": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"model": {
+										"$ref": "AAAAAAFleXDfgLqNIEs="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 444,
+									"top": 298,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFleXDfgbqSSJs=",
+									"_parent": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"model": {
+										"$ref": "AAAAAAFleXDfgLqNIEs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 479,
+									"top": 326,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFleXDfgLqPyek="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFleU5+HblP8nY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFleWN30LoJ1aA="
+							},
+							"lineStyle": 1,
+							"points": "466:327;471:319",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFleXDfgLqQaNg="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFleXDfgbqRuu4="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFleXDfgbqSSJs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFleTvxjrimVys=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "_Vector_alloc_base",
+					"templateParameters": [
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleTzUJrjbfQI=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_Tp"
+						},
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleT3HzLjiZtA=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_Allocator"
+						},
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleT3c0Ljp/mQ=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "bool _IsStatic"
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleT4vZ7jxT+s=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_data_allocator",
+							"visibility": "protected",
+							"type": "allocator_type"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleUHur7j6C1c=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_start",
+							"documentation": "管理的内存的开始位置",
+							"visibility": "protected",
+							"type": "_Tp*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleUIRGbkCj1c=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_finish",
+							"visibility": "protected",
+							"type": "_Tp*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleUIuPbkKDRY=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_end_of_storage",
+							"documentation": "内存结束位置\n管理的内存不包括这个位置",
+							"visibility": "protected",
+							"type": "_Tp*"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleULAbrkVhfE=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_allocate",
+							"documentation": "获得原始内存，内部使用operator new\n",
+							"visibility": "protected",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleUMEXLkeXek=",
+									"_parent": {
+										"$ref": "AAAAAAFleULAbrkVhfE="
+									},
+									"name": "__n",
+									"type": "size_t"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleUM6B7kj+8s=",
+									"_parent": {
+										"$ref": "AAAAAAFleULAbrkVhfE="
+									},
+									"name": "return",
+									"type": "_Tp*",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleUOOqrkpn9s=",
+							"_parent": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							},
+							"name": "_M_deallocate",
+							"documentation": "回收内存内部使用operator delete\n",
+							"visibility": "protected",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleUPg37kxS5U=",
+									"_parent": {
+										"$ref": "AAAAAAFleUOOqrkpn9s="
+									},
+									"name": "__p",
+									"type": "_Tp*"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFleU5+HblNrvA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "_Vector_base",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAFleVKLJLmHAHU=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"source": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"target": {
+								"$ref": "AAAAAAFleTvxjrimVys="
+							}
+						}
+					],
+					"templateParameters": [
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleU67Lbl3d6g=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_Tp"
+						},
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleU7PxLl+56k=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_Alloc"
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleV3DTrnLwv4=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_M_start",
+							"visibility": "protected",
+							"type": "_Tp*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleV3xFLnTgRQ=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_M_finish",
+							"documentation": "已经使用到的内存尾部\n这里指向的是第一个没有被使用的内存位置\n",
+							"visibility": "protected",
+							"type": "_Tp*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFleV4yq7ncV8M=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_M_end_of_storage",
+							"visibility": "protected",
+							"type": "_Tp*"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleVXvJbmaG4o=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_Vector_base",
+							"documentation": "调用_M_alloate创建内存\n初始化\n_M_start\n_M_finish\n_M_end_of_storage\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleVYwkrmh6Yk=",
+									"_parent": {
+										"$ref": "AAAAAAFleVXvJbmaG4o="
+									},
+									"name": "__n",
+									"type": "size_t"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleVZ36bmmc4g=",
+									"_parent": {
+										"$ref": "AAAAAAFleVXvJbmaG4o="
+									},
+									"name": "__a",
+									"type": "const allocator&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleVfixrmvv8g=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_Vector_base",
+							"documentation": "调用_M_deallocate回收内存\n",
+							"visibility": "package"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleV7rYbnnPEg=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_M_allocate",
+							"documentation": "调用_M_data_allocator::allocate(__n)\n静态方法\n",
+							"visibility": "protected",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleV9zq7nvR/g=",
+									"_parent": {
+										"$ref": "AAAAAAFleV7rYbnnPEg="
+									},
+									"name": "__n",
+									"type": "size_t"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleWBC5Ln1Kkc=",
+							"_parent": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							},
+							"name": "_M_deallocate",
+							"documentation": "调用_M_data_allocator::deallocate(__p, __n)\n里面使用的是_Alloc::dellocate(_p,_n*sizeof(_Tp))\n",
+							"visibility": "protected",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWDjnLn+I2k=",
+									"_parent": {
+										"$ref": "AAAAAAFleWBC5Ln1Kkc="
+									},
+									"name": "__p",
+									"type": "_Tp*"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWDjnLn/WdQ=",
+									"_parent": {
+										"$ref": "AAAAAAFleWBC5Ln1Kkc="
+									},
+									"name": "__n",
+									"type": "size_t"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFleWN30LoHFl0=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "vector",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAFleXDfgLqNIEs=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"source": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"target": {
+								"$ref": "AAAAAAFleU5+HblNrvA="
+							}
+						}
+					],
+					"documentation": "如果__new_size大于当前数据\n那么删除多余的\n少则插入__x直到相等",
+					"templateParameters": [
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleWOcKroxsJo=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_Tp"
+						},
+						{
+							"_type": "UMLTemplateParameter",
+							"_id": "AAAAAAFleWQhyro44HM=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_Alloc"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleWfqQbpHBfw=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "max_size",
+							"documentation": "return -1\n奇怪的方法\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWiRwbpXxHM=",
+									"_parent": {
+										"$ref": "AAAAAAFleWfqQbpHBfw="
+									},
+									"name": "return return",
+									"type": "size_type",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleWhULLpQF7k=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "capacity",
+							"documentation": "返回已经申请的空间的大小",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWk2D7pdIGY=",
+									"_parent": {
+										"$ref": "AAAAAAFleWhULLpQF7k="
+									},
+									"type": "size_type",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleWodSrpgGZY=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "operator[]",
+							"documentation": "不检查__n是否合理\n返回引用\n如果__n使用没有超过capacity则不报错\n如果超过，那么内存访问越界\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWpmuLpnPts=",
+									"_parent": {
+										"$ref": "AAAAAAFleWodSrpgGZY="
+									},
+									"name": "__n",
+									"type": "size_type"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleWsO0rpsIjA=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_range_check",
+							"documentation": "返回__n>=size();\n不像是判断__n是否可以作为下标\nat方法使用\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleWtdz7p0oLA=",
+									"_parent": {
+										"$ref": "AAAAAAFleWsO0rpsIjA="
+									},
+									"name": "__n",
+									"type": "size_type"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleXECRrqfZ0g=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "at",
+							"documentation": "可以使用这个方法访问已有使用的内存\n也可以访问第一未使用的内存\n但是没有检查是否超过了申请的内存空间\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleXIk5bqm+u8=",
+									"_parent": {
+										"$ref": "AAAAAAFleXECRrqfZ0g="
+									},
+									"name": "__n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleXJUJbqrKfo=",
+									"_parent": {
+										"$ref": "AAAAAAFleXECRrqfZ0g="
+									},
+									"name": "return",
+									"type": "reference",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleXbl7Lq2Ky0=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "vector",
+							"documentation": "使用__value作为参数和\nuninitialized_fill_n方法在_M_start\n创建__n个数据\n\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleXgtKbq9Fxg=",
+									"_parent": {
+										"$ref": "AAAAAAFleXbl7Lq2Ky0="
+									},
+									"name": "___n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleXhieLrChos=",
+									"_parent": {
+										"$ref": "AAAAAAFleXbl7Lq2Ky0="
+									},
+									"name": "__value",
+									"type": "const _Tp&"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleXiq+LrH/Rs=",
+									"_parent": {
+										"$ref": "AAAAAAFleXbl7Lq2Ky0="
+									},
+									"name": "__a",
+									"type": "const allocator_type&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleXvhiLrR43I=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_initialize_aux",
+							"documentation": "#ifdef __STL_MEMBER_TEMPLATES\n有很多使用迭代器的方法\n作用是把一段迭代器初始化\n\n"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleX9+/brb9cc=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "vector",
+							"documentation": "调用destroy方法\n调用对象的析构方法，\n但是貌似没有回收 内存\nreserve也使用这个方法\n但是使用了_M_deallocate方法回收内存\n\n",
+							"visibility": "package"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleYFAH7r3z74=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "reserve",
+							"documentation": "如果已经申请的内存大小小于\n__n则重新申请内存\n调用_M_allocate_and_copy方法\n获得一份复制好的内存空间起始位置\n该空间大小为__n\n调用所有数据的析构函数\n然后回收全部的内存\n更新成员变量\n\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleYFcRrr+5JA=",
+									"_parent": {
+										"$ref": "AAAAAAFleYFAH7r3z74="
+									},
+									"name": "__n",
+									"type": "size_type"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleY2YF7sKBPw=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "assign",
+							"documentation": "直接调用_M_fill_assign\n方法初始化",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleY3IV7sRYwc=",
+									"_parent": {
+										"$ref": "AAAAAAFleY2YF7sKBPw="
+									},
+									"name": "__n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleY30krsW5XA=",
+									"_parent": {
+										"$ref": "AAAAAAFleY2YF7sKBPw="
+									},
+									"name": "__val",
+									"type": "const _Tp&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleZA6wbscaRY=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "push_back",
+							"documentation": "如果还有剩余空间\n调用construct方法\n使用placement new的方法构造\n一个__x的对象，拷贝构造\n否则调用\n_M_insert_aux方法插入\n\n有一个无参的重载函数调用对象\n的无参构造的函数构造",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleZCNb7sjmvw=",
+									"_parent": {
+										"$ref": "AAAAAAFleZA6wbscaRY="
+									},
+									"name": "__x",
+									"type": "const _Tp&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFleZN2obsrs5c=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "swap",
+							"documentation": "交换两个vector的\n成员变量就行了\n不会调用构造函数\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFleZOqWLsyGUc=",
+									"_parent": {
+										"$ref": "AAAAAAFleZN2obsrs5c="
+									},
+									"name": "__x",
+									"type": "vector<_Tp,_Alloc>"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFlelIs5Ls5ipQ=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "insert",
+							"documentation": "__position-begin()获得下标\n判断是否还有剩余空间以及__postion是否是end()\n可以插入的情况下\n使用placement new的方法构造\n++_M_finish\n如果内存不够或者__position不是end（）结尾\n那么调用_M_insert_aux方法\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlelJ1lrtAuqU=",
+									"_parent": {
+										"$ref": "AAAAAAFlelIs5Ls5ipQ="
+									},
+									"name": "__position",
+									"type": "iterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlelLHirtF/RI=",
+									"_parent": {
+										"$ref": "AAAAAAFlelIs5Ls5ipQ="
+									},
+									"name": "__x",
+									"type": "const _Tp&"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlelMT1LtK38Q=",
+									"_parent": {
+										"$ref": "AAAAAAFlelIs5Ls5ipQ="
+									},
+									"name": "return",
+									"type": "iterator",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFlenTXD7tUJlg=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "pop_back",
+							"documentation": "--_M_finish;\n调用*_M_finish的析构函数\n"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFletJnsrte8qc=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "erase",
+							"documentation": "如果这不是最后一个数据\n那么使用copy方法\n把position+1开始到结束的数据拷贝到__position中\n\n然后调用最后一个数据的析构函数",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFletQKGLtlWXs=",
+									"_parent": {
+										"$ref": "AAAAAAFletJnsrte8qc="
+									},
+									"name": "__position",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFljfmf86Zxybo=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "resize",
+							"documentation": "如果新数据的大小比目前数据小\n则erase多余的\n如果大那么insert  _new_size-size个  __x",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljfnJaaZ47z0=",
+									"_parent": {
+										"$ref": "AAAAAAFljfmf86Zxybo="
+									},
+									"name": "__new_size",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljfoWaaZ9DS0=",
+									"_parent": {
+										"$ref": "AAAAAAFljfmf86Zxybo="
+									},
+									"name": "__x",
+									"type": "const _Tp&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFljftrYqaFgLY=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "clear",
+							"documentation": "调用erase 从头删到尾\n"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFljuOSoqaNRVc=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_allocate_and_copy",
+							"documentation": "申请一段__n的内存\n拷贝复制__first到__last的数据，并返回迭代器\n",
+							"visibility": "private",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljuRRCqaVZ8M=",
+									"_parent": {
+										"$ref": "AAAAAAFljuOSoqaNRVc="
+									},
+									"name": "__n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljuSHHaaaRJc=",
+									"_parent": {
+										"$ref": "AAAAAAFljuOSoqaNRVc="
+									},
+									"name": "__first",
+									"type": "const_iterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljuS7MqafOLY=",
+									"_parent": {
+										"$ref": "AAAAAAFljuOSoqaNRVc="
+									},
+									"name": "__last",
+									"type": "const_iterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljuTskKakyfk=",
+									"_parent": {
+										"$ref": "AAAAAAFljuOSoqaNRVc="
+									},
+									"name": "return",
+									"type": "iterator",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFljuygi6atbt4=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_range_initialize",
+							"documentation": "这个方法只会被构造函数调用\n这里调用了distance方法获得\n__first到__last的长度\n并申请相应的内存\n然后复制过来\n应该是供拷贝构造函数调用的\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlju3mp6a2ffI=",
+									"_parent": {
+										"$ref": "AAAAAAFljuygi6atbt4="
+									},
+									"name": "__first",
+									"type": "_ForwardIterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlju4+FKa8u3E=",
+									"_parent": {
+										"$ref": "AAAAAAFljuygi6atbt4="
+									},
+									"name": "__last",
+									"type": "_ForwardIterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlju58h6bB0I0=",
+									"_parent": {
+										"$ref": "AAAAAAFljuygi6atbt4="
+									},
+									"type": "forward_iterator_tag"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFljvIl7KbIyCA=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "operator=",
+							"documentation": "拷贝赋值\n首先排除自身赋值\n\n3中情况\n新vector的长度__xLen大于capacity\n需要重新分配内存\n调用_M_allocator_and_copy进行\n然后调用之前数据的析构函数并回收内存\n\n__xLen小于size\n调用copy方法赋值数据到开始位置\n使用destroy析构剩下的数据\n__xlen大于size小于capacity\n调用copy拷贝赋值\n在uninitialized_copy从结束位置拷贝构造剩下的\n\n\n\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljvKB9KbQNNU=",
+									"_parent": {
+										"$ref": "AAAAAAFljvIl7KbIyCA="
+									},
+									"name": "__x",
+									"type": "const vector<_Tp,_Alloc>&"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFljvLomabVaZk=",
+									"_parent": {
+										"$ref": "AAAAAAFljvIl7KbIyCA="
+									},
+									"name": "return",
+									"type": "vector<_Tp,_Alloc>&",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFlk+LYdxhXx7I=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_fill_assign",
+							"documentation": "将vector的内容赋值为__n个__val\n如果__n大于capacity新建一个vecotr\n参数为__n __val ,当前的allocator\n使用swap交换数据\n如果__n>size\n采用一个一个赋值的方法赋值完size个\n剩下的使用uninitialized_fill_n构造\n其他情况\n填充__n个__val然后erase剩下的\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+MbyBhegDc=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+LYdxhXx7I="
+									},
+									"name": "__n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+NNlRhjXrc=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+LYdxhXx7I="
+									},
+									"name": "__val",
+									"type": "const _Tp&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFlk+To3xhoZpU=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_insert_aux",
+							"documentation": "如果空间不足也就是_M_finish=_M_end_of_storage\n那么重新获取内存\n使用uninitailized_copy复制开始位置 到position的数据\n然后拷贝__x，最后拷贝剩下的在后面\n析构并回收之前的内存\n跟新成员变量\n空间足够时\n先在数组末尾拷贝构造一份数据\n然后使用copy_backward从数组\n倒数第二个往前拷贝，拷贝到最后一个，\n最后在position位置停止，赋值为__x\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+VwUBhwCg0=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+To3xhoZpU="
+									},
+									"name": "__position",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlmWCk02tRfxU=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+To3xhoZpU="
+									},
+									"name": "__x",
+									"type": "const _Tp&"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFlk+X+Sxh01kY=",
+							"_parent": {
+								"$ref": "AAAAAAFleWN30LoHFl0="
+							},
+							"name": "_M_fill_insert",
+							"documentation": "在指定位置插入多个数据\n首先判断空间够不够\n够的情况下有两种情况\n第一：position后面的数据数目大于__n\n考虑到直接把数据复制到position+_n中会覆盖掉一部分数据\n这里先把_M_finish-n之后的数据拷贝到_M_finsih中\n然后把剩下拷贝到之前的_M_finish前面\n最后在position处填充__n个__x\n第二：position后面的数据数目小于__n\n先把后面不足的空间初始化\n然后把__position之后的数据赋值到\n最后，然后填充__n个__x\n\n如果空间不足的情况比较简单\n新建空间\n分为三段赋值\n_M_start 到__position\n_position之后__n个__x\n在这之后的原先__position到__M_finish\n\n",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+YwWBh74Ss=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+X+Sxh01kY="
+									},
+									"name": "__pos",
+									"type": "iterator"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+ZbhxiAAe4=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+X+Sxh01kY="
+									},
+									"name": "__n",
+									"type": "size_type"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFlk+aJ2xiF9J4=",
+									"_parent": {
+										"$ref": "AAAAAAFlk+X+Sxh01kY="
+									},
+									"name": "__x",
+									"type": "const _Tp&"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
